@@ -1,12 +1,22 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Buildings from './components/Buildings'
+import Home from './components/Home'
+import Resources from './components/Resources'
+import RentSoldiers from './components/RentSoldiers'
+import Login from './components/Login'
+import Navbar from './components/Navbar'
 
 function App() {
 
 
   return (
     <>
-      <p>Hello World</p>
+      <Navbar />
+      <Home />
+      <Buildings />
+      <Resources />
+      <RentSoldiers />
+      <Login />
     </>
   )
 }
