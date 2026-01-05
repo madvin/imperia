@@ -1,7 +1,7 @@
 export default function Buildings() {
   return (
     <>
-      <h1>Buildings</h1>
+      <h1 className='text-2xl font-bold text-red-500'>Buildings</h1>
     </>
   );
 }
